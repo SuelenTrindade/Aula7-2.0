@@ -1,0 +1,32 @@
+*{
+  margin: 2;
+  padding: 3;
+}
+body{
+  text-align: center;
+  background: linear-gradient(-45deg, #ffaedd, #ffc9e4, #ffeef6);
+  font-family: "Poppins", sans-serif;
+}
+.button {
+  background-color: #e90290;
+  color: white;
+  border: 2px solid #ffffff;
+  border-radius: 100px;
+  box-shadow: 10px 10px 10px #aaaaaa;
+  transition: background-color 0.2s ease-in-out;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.button:hover {
+  background-color: #c5aaaa;
+}
+
+
+@media (max-width: 576px) {
+  .button, body {
+    font-size: 16px;
+    padding: 5px;
+  }
+}
